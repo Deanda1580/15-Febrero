@@ -1,5 +1,5 @@
 # 15-Febrero
-
+%PROBLEMA1
 syms x a
 
 Y = 2*x+a;
@@ -13,7 +13,7 @@ y_comp = subs(Y,[a x],[1 x_sust_a])
 
 
 
-
+%PROBLEMA2
 syms x a b
 
 Y = x.^2+a*x+b
@@ -32,7 +32,7 @@ vpa(y_comp2)
 
 
 
-
+%PROBLEMA3
 syms x a b
 
 Y = 2*exp(x)+3*cos(x)
@@ -46,7 +46,7 @@ comp1 = subs(Y,[x],[x_sust])
 
 
 
-
+%PROBLEMA4
 syms x y c
 
 Ec1 = 2*x -3*c*y;
@@ -64,7 +64,7 @@ Ec2 = c*x +2*y;
 
 
 
-
+%PROBLEMA5
 syms x y
 
 Ec1 = 3*x.^2 -2*x +y -7 ==0
